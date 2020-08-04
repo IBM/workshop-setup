@@ -44,17 +44,11 @@ Another great online shell is available via the `Theia - Cloud IDE (With OpenShi
 
     ![OpenShift oc login](../.gitbook/roks/openshift-oc-login.png)
 
-2. Go to the your shell terminal.
+1. Go to the your shell terminal.
 
-3. Paste the `oc login command` in the IBM Cloud Shell terminal and run it.
+1. Paste the `oc login command` in the IBM Cloud Shell terminal and run it.
 
-4. After login to your cluster, set an environment variable for your cluster name.
-
-   ```shell
-   export CLUSTER_NAME=<your_cluster_name>
-   ```
-
-5. Verify you connect to the right cluster.
+1. Verify you connect to the right cluster.
 
    ```shell
    oc get all
@@ -63,3 +57,8 @@ Another great online shell is available via the `Theia - Cloud IDE (With OpenShi
 
     ![oc get nodes](../.gitbook/roks/cognitiveclass-get-nodes.png)
 
+1. Optionally, for convenience, set an environment variable for your cluster name.
+
+   ```shell
+   export CLUSTER_NAME=<your_cluster_name>
+   ```
