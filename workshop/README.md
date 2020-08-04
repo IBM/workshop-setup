@@ -1,37 +1,18 @@
 
-## Workshop Title
+## Workshop Setup
 
-Welcome to our workshop! In this workshop we'll be using foo to accomplish bar. The goals of this workshop are:
+Welcome to our workshop setup! The goals of this workshop setup are:
 
-* Goals!
-* Have fun!
-
-### About this workshop
-
-The introductory page of the workshop is broken down into the following sections:
-
-* [Agenda](#agenda)
-* [Compatibility](#compatibility)
-* [Technology Used](#technology-used)
-* [Credits](#credits)
+* Access to a client environment,
+* Install required tools,
+* Access to the cloud service used in the workshop.
 
 ## Agenda
 
 |   |   |
 | - | - |
-| [Exercise 0: Pre-work](pre-work/README.md) | Pre-work for the project |
-| [Exercise 1: Some Exercise](some-exercise/README.md) | Exercise to do the thing |
-
-## Compatibility
-
-This workshop has been tested on the following platforms:
-
-* **osName**: version X, version Y
-
-## Technology Used
-
-* Brief Description
+| [Exercise 0: Pre-work](pre-work/README.md) | Pre-work for the workshop |
 
 ## Credits
 
-* [Full Name](https://github.com/githubid)
+* [Remko de Knikker](https://github.com/remkohdev)
