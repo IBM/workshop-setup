@@ -1,12 +1,6 @@
 # RedHat OpenShift Kubernetes Service (ROKS)
 
-## 1. Sign up for IBM Cloud
-
-You will need an IBM Cloud ID for the workshop. If you already have an IBM Cloud ID, proceed to the next section. To create an ID:
-
-* Follow the steps outlined in [NEWACCOUNT](NEWACCOUNT.md).
-
-## 2. Login to IBM Cloud
+## Login to IBM Cloud
 
 To login to IBM Cloud,
 
@@ -18,27 +12,25 @@ To login to IBM Cloud,
 
 >Note: you may not have access to your OpenShift cluster if you are not in the right account#.
 
-## 3. Open Cloud Shell
+## Shell
 
-Most of the labs will run CLI commands. The IBM Cloud Shell is preconfigured with the full IBM Cloud CLI and tons of plug-ins and tools that you can use to manage apps, resources, and infrastructure.
+Most of the labs are run using CLI commands. 
 
-1. From the [IBM Cloud Home Page](https://cloud.ibm.com), select the terminal icon in the upper right hand menu.
+The IBM Cloud Shell available at https://shell.cloud.ibm.com is preconfigured with the full IBM Cloud CLI and tons of plug-ins and tools that you can use to manage apps, resources, and infrastructure. 
 
-    ![Terminal Button](../.gitbook/generic/access-cloud-shell.png)
+Another great online shell is available via the `Theia - Cloud IDE (With OpenShift)` at https://labs.cognitiveclass.ai. The Cognitive Class shell comes with a Docker Engine and Helm v3 at the time of writing.
 
-1. It might take a few moments to create the instance and a new session which automatically logs you in through the IBM Cloud CLI.
-
-    ![Cloud Shell](../.gitbook/grant-cluster/cloud-shell.png)
-
-    > *Note: Ensure the cloud shell is using the same account where your cluster is provisioned. Check that the account name shown in the top right of the screen, next to `Current account` is the correct one.*
-
-## 4. Connect to OpenShift Cluster
+## Connect to RedHat OpenShift Kubernetes Service (ROKS)
 
 1. In a new browser tab, go to https://cloud.ibm.com/kubernetes/clusters?platformType=openshift.
+
+1. Make sure the account holding the cluster is selected,
 
 1. Select your cluster instance and open it.
 
 1. Click `OpenShift web console` button on the top.
+
+    ![IBM Cloud OpenShift Web Console](../.gitbook/roks/ibmcloud-openshift-webconsole.png)
 
 1. Click on your username in the upper right and select `Copy Login Command` option.
 
@@ -46,22 +38,28 @@ Most of the labs will run CLI commands. The IBM Cloud Shell is preconfigured wit
 
 1. Click the `Display Token` link.
 
+    ![OpenShift Display Token](../.gitbook/roks/openshift-display-token.png)
+
 1. Copy the contents of the field `Log in with this token` to the clipboard. It provides a login command with a valid token for your username.
 
-1. Go to the `Cloud Shell` tab.
+    ![OpenShift oc login](../.gitbook/roks/openshift-oc-login.png)
 
-1. Paste the `oc login command` in the IBM Cloud Shell terminal and run it.
+2. Go to the your shell terminal.
 
-1. After login to your cluster, set an environment variable for your cluster.
+3. Paste the `oc login command` in the IBM Cloud Shell terminal and run it.
+
+4. After login to your cluster, set an environment variable for your cluster name.
 
    ```shell
    export CLUSTER_NAME=<your_cluster_name>
    ```
 
-1. Verify you connect to the right cluster.
+5. Verify you connect to the right cluster.
 
    ```shell
-   kubectl get pod
+   oc get all
+   oc get nodes -o wide
    ```
 
+    ![oc get nodes](../.gitbook/roks/cognitiveclass-get-nodes.png)
 
