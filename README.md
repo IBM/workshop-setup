@@ -1,6 +1,6 @@
 # Advocacy Workshop
 
-This is a template for workshops hosted on Gitbook. To view it online, go to:
+This repo as generated using a template for workshops hosted on Gitbook. To view it online, go to:
 
 <https://ibm-developer.gitbook.io/workshop-template/>
 
