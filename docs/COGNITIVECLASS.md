@@ -6,11 +6,11 @@
 
 1. Navigate to https://labs.cognitiveclass.ai/register,
 
-    ![Cognitive Class button](../.gitbook/cognitiveclass/cogClassButton.png)
+    ![Cognitive Class button](images/cognitiveclass/cogClassButton.png)
 
 1. Create a new account with your existing `IBM Id.` 
 
-    ![Cognitive Class button](../.gitbook/cognitiveclass/cogClassButton2.png)
+    ![Cognitive Class button](images/cognitiveclass/cogClassButton2.png)
 
 1. Alternative, you can choose to use a Social login (LinkedIn, Google, Github or Facebook), or for using your email account click the `Cognitive Class` button,
 
@@ -20,20 +20,20 @@
 
 1. You will then be taken to a page with a list of sandbox environments. Click on the option for **Theia - Cloud IDE (With OpenShift)**
 
-    ![sandbox list](../.gitbook/cognitiveclass/sandboxList.png)
+    ![sandbox list](images/cognitiveclass/sandboxList.png)
 
 1. Wait a few minutes while your environment is created.
 
-    ![waiting](../.gitbook/cognitiveclass/waiting.png)
+    ![waiting](images/cognitiveclass/waiting.png)
 
 1. You will be taken to a blank editor page once your environment is ready.
 
 1.  What we really need is access to the terminal. Click on the `Terminal` tab near the top of the page and select **New Terminal**
 
-    ![New Terminal](../.gitbook/cognitiveclass/newTerminal.png)
+    ![New Terminal](images/cognitiveclass/newTerminal.png)
 
 1.  You can then click and drag the top of the terminal section upwards to make the terminal section bigger.
 
-    ![bigger terminal](../.gitbook/cognitiveclass/biggerTerminal.png)
+    ![bigger terminal](images/cognitiveclass/biggerTerminal.png)
 
 

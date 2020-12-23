@@ -8,7 +8,7 @@ To login to IBM Cloud,
 
 1. Make sure that you are in the correct account#.
 
-    ![Account Number](../.gitbook/generic/account-number.png)
+    ![Account Number](images/generic/account-number.png)
 
 >Note: you may not have access to your OpenShift cluster if you are not in the right account#.
 
@@ -30,19 +30,19 @@ Another great online shell is available via the `Theia - Cloud IDE (With OpenShi
 
 1. Click `OpenShift web console` button on the top.
 
-    ![IBM Cloud OpenShift Web Console](../.gitbook/roks/ibmcloud-openshift-webconsole.png)
+    ![IBM Cloud OpenShift Web Console](images/roks/ibmcloud-openshift-webconsole.png)
 
 1. Click on your username in the upper right and select `Copy Login Command` option.
 
-    ![Terminal Button](../.gitbook/generic/copy-openshift-cmd.png)
+    ![Terminal Button](images/generic/copy-openshift-cmd.png)
 
 1. Click the `Display Token` link.
 
-    ![OpenShift Display Token](../.gitbook/roks/openshift-display-token.png)
+    ![OpenShift Display Token](images/roks/openshift-display-token.png)
 
 1. Copy the contents of the field `Log in with this token` to the clipboard. It provides a login command with a valid token for your username.
 
-    ![OpenShift oc login](../.gitbook/roks/openshift-oc-login.png)
+    ![OpenShift oc login](images/roks/openshift-oc-login.png)
 
 1. Go to the your shell terminal.
 
@@ -55,7 +55,7 @@ Another great online shell is available via the `Theia - Cloud IDE (With OpenShi
    oc get nodes -o wide
    ```
 
-    ![oc get nodes](../.gitbook/roks/cognitiveclass-get-nodes.png)
+    ![oc get nodes](images/roks/cognitiveclass-get-nodes.png)
 
 1. Optionally, for convenience, set an environment variable for your cluster name.
 
