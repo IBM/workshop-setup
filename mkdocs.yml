@@ -16,6 +16,7 @@ nav:
   - Docs:
     - IBM Cloud Shell: CLOUDSHELL.md
     - Labs at CognitiveClass.ai: COGNITIVECLASS.md
+    - Free Kubernetes Cluster: FREEIKSCLUSTER.md
     - Grant Cluster Permissions: GRANTCLUSTER.md
     - Helm v3: HELM.md
     - Jenkins: JENKINS.md
