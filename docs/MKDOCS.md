@@ -18,7 +18,9 @@ mkdocs --version
 pip install mkdocs-material
 ```
 
-3. Rename `workshop` to `docs`, edit `gitbook.yaml` and change `workshop` to `docs` references.
+1. Add a `~/README.md` file to the root folder of the project, this is the landing page for the Github repository different from the MkDocs landing page. MkDocs assumes its root to be the `docs` folder.
+2. Create a new directory `docs`, or when converting from Gitbook, rename `workshop` to `docs`, edit `gitbook.yaml` and change `workshop` to `docs` references.
+3. Add a `docs/README.md` file, which is the homepage for the MkDocs documentation,
 4. Create a new file `.github/workflows/ci.yml`,
 
 ```
@@ -40,7 +42,7 @@ jobs:
       - run: mkdocs gh-deploy --force
 ```
 
-5. Create a new file `mkdocs.yml`,
+5. In the root folder of your project, create a new file `~/mkdocs.yml`,
 
 ```
 # Project information
@@ -145,3 +147,6 @@ markdown_extensions:
     * `<SITE_NAME>`
     * `<REPO_NAME>`
     * If converting from Gitbook: copy the navigation links from `workshop/SUMMARY.md` to the `Navigation` section and copy-edit the links for the navigation,
+
+7. Test the docs locally with the command `mkdocs serve`,
+8. 
