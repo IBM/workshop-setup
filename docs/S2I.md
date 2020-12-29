@@ -15,7 +15,7 @@ To install s2i CLI tool,
 1. Unzip tar file
 
     ```
-	tar xvf source-to-image*.gz
+	sudo tar xvf source-to-image*.gz
     ```
 
 1. Make s2i CLI accessiblee.
