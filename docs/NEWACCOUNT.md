@@ -2,7 +2,7 @@
 
 To create a new account, follow the steps below,
 
-1. Open a web browser and go to the [IBM Cloud Sign up page - https://ibm.biz/BdqbEh](https://ibm.biz/BdqbEh)
+1. Open a web browser and go to the [IBM Cloud Sign up page](https://ibm.biz/Bdfxpq)
 
    ![Cloud Sign up](images/generic/ibm-cloud-sign-up.png)
 
