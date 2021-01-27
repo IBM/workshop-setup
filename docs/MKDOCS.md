@@ -264,19 +264,9 @@ git remote add origin https://github.com/remkohdev/test1.git
 git push -u origin main
 ```
 
-1. Create a new branch `gh-pages`,
+1. Github pages use a branch called `gh-pages`, this branch is automatically created if it does not exist by the Github action that is defined in the `.github/workflows/ci.yml`,
 
-```console
-git checkout -b gh-pages
-git push -f origin  gh-pages
-git checkout main
-```
-
-1. Deploy MkDocs,
-
-```console
-mkdocs gh-deploy
-```
+1. Github also needs to resolve the domain name and URI to the repository, and point it to the correct branch of the Github page for the repo. To configure this, in your repo, go to Settings, scroll down to `GitHub Pages` section and from the `Source` dropdown, select the branch `gh-pages`, accept the default `/root` and click `Save`.
 
 1. Your MkDocs branch should now be live. Whenever you push changes to your main branch, the Github action to deploy MkDocs will be triggered again,
 
