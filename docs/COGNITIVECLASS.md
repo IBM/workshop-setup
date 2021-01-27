@@ -8,7 +8,7 @@
 
     ![Cognitive Class button](images/cognitiveclass/cogClassButton.png)
 
-1. Create a new account with your existing `IBM Id.` 
+1. Create a new account with your existing `IBM Id.`
 
     ![Cognitive Class button](images/cognitiveclass/cogClassButton2.png)
 
@@ -28,12 +28,10 @@
 
 1. You will be taken to a blank editor page once your environment is ready.
 
-1.  What we really need is access to the terminal. Click on the `Terminal` tab near the top of the page and select **New Terminal**
+1. What we really need is access to the terminal. Click on the `Terminal` tab near the top of the page and select **New Terminal**
 
     ![New Terminal](images/cognitiveclass/newTerminal.png)
 
-1.  You can then click and drag the top of the terminal section upwards to make the terminal section bigger.
+1. You can then click and drag the top of the terminal section upwards to make the terminal section bigger.
 
     ![bigger terminal](images/cognitiveclass/biggerTerminal.png)
-
-
