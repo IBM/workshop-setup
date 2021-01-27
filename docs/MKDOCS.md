@@ -14,7 +14,7 @@ pip install mkdocs
 mkdocs --version
 ```
 
-2. To install `Material for MkDocs` go to the [Getting Started](https://squidfunk.github.io/mkdocs-material/getting-started/) instructions,
+1. To install `Material for MkDocs` go to the [Getting Started](https://squidfunk.github.io/mkdocs-material/getting-started/) instructions,
 
 ```console
 pip install mkdocs-material

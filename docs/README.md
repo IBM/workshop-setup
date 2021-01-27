@@ -1,6 +1,6 @@
-## About
+# Workshop Setup
 
-This repository holds reusable setup instructions for a diverse set of hands-on labs and tutorials. 
+This repository holds reusable setup instructions for a diverse set of hands-on labs and tutorials.
 
 ## Common Setups
 

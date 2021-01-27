@@ -6,7 +6,7 @@ The `grant cluster` method to get access to a Kubernetes cluster will assign acc
 
 You need an IBM Cloud account to access your cluster,
 
-1. If you do not have an IBM Cloud account yet, register at https://cloud.ibm.com/registration,
+1. If you do not have an IBM Cloud account yet, register at [https://cloud.ibm.com/registration](https://cloud.ibm.com/registration),
 2. Or find instructions to create a new IBM Cloud account [here](NEWACCOUNT.md),
 
 To grant a cluster,
