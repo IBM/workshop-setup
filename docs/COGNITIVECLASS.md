@@ -2,9 +2,9 @@
 
 ## Access CognitiveClass.ai
 
-1. If you have already registered your account, you can access the lab environment at **https://labs.cognitiveclass.ai/** and login.
+1. If you have already registered your account, you can access the lab environment at [https://labs.cognitiveclass.ai](https://labs.cognitiveclass.ai) and login.
 
-1. Navigate to https://labs.cognitiveclass.ai/register,
+1. Navigate to [https://labs.cognitiveclass.ai/register](https://labs.cognitiveclass.ai/register),
 
     ![Cognitive Class button](images/cognitiveclass/cogClassButton.png)
 
