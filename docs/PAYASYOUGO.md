@@ -1,35 +1,35 @@
-## Upgrade to Pay-As-You-Go Account
+# Upgrade to Pay-As-You-Go Account
 
 1. Login to your [IBM Cloud account](https://cloud.ibm.com/login),
-2. Go to [account settings](https://cloud.ibm.com/account/settings),
+1. Go to [account settings](https://cloud.ibm.com/account/settings),
 
 ![Account Settings](images/account/ibmcloud-account-settings.png)
 
-3. Click the `Add credit card` button, to create the `Pay-As-You-Go` account, which will unlock the full catalog,
+1. Click the `Add credit card` button, to create the `Pay-As-You-Go` account, which will unlock the full catalog,
 
 ![Account Settings - Unlock the full catalog](images/account/ibmcloud-unlock-catalog.png)
 
-4. Select the `Account type`, choose between `Company` and `Personal`. For the setup, I will choose `Personal`. Click `Next`,
+1. Select the `Account type`, choose between `Company` and `Personal`. For the setup, I will choose `Personal`. Click `Next`,
 
 ![Account Settings - Personal](images/account/ibmcloud-unlock-catalog-personal.png)
 
-5. Enter your `Billing Information`, click `Next`,
+1. Enter your `Billing Information`, click `Next`,
 
 ![Account Settings - Personal - Billing Information](images/account/ibmcloud-unlock-catalog-personal-billinginfo.png)
 
-6.  Enter your `Payment information`, click `Next`,
+1. Enter your `Payment information`, click `Next`,
 
 ![Account Settings - Personal - Payment Information](images/account/ibmcloud-unlock-catalog-payment.png)
 
-7. Acknowledge that your card will not be charged, but a $1.00 hold will be placed while authorizing the card,
-8. Click `Upgrade Account`,
+1. Acknowledge that your card will not be charged, but a $1.00 hold will be placed while authorizing the card,
+1. Click `Upgrade Account`,
 
 ![Account Settings - Upgrade Account](images/account/ibmcloud-unlock-catalog-upgrade.png)
 
-9. You will receive $200 credit, in case you want to use paid services,
-10. Click `Done`,
-11. Under `Account settings` you should now see `Account Type` as `Pay-As-You-Go`.
-12. Go to the [IBM Cloud Catalog](https://cloud.ibm.com/catalog) and filter [Free and Lite services](https://cloud.ibm.com/catalog?search=label%3Alite%20label%3Afree#services). 
+1. You will receive $200 credit, in case you want to use paid services,
+1. Click `Done`,
+1. Under `Account settings` you should now see `Account Type` as `Pay-As-You-Go`.
+1. Go to the [IBM Cloud Catalog](https://cloud.ibm.com/catalog) and filter [Free and Lite services](https://cloud.ibm.com/catalog?search=label%3Alite%20label%3Afree#services).
 
 ## Free and Lite Services
 
@@ -83,4 +83,3 @@ At the time of writing this setup 115 free and lite services were listed, among 
 * Watson Knowledge Catalog,
 * Watson OpenScale,
 * Watson Studio,
-

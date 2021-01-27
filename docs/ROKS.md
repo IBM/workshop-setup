@@ -4,7 +4,7 @@
 
 To login to IBM Cloud,
 
-1. Go to https://cloud.ibm.com in your browser and login.
+1. Go to [https://cloud.ibm.com](https://cloud.ibm.com) in your browser and login.
 
 1. Make sure that you are in the correct account#.
 
@@ -14,15 +14,15 @@ To login to IBM Cloud,
 
 ## Shell
 
-Most of the labs are run using CLI commands. 
+Most of the labs are run using CLI commands.
 
-The IBM Cloud Shell available at https://shell.cloud.ibm.com is preconfigured with the full IBM Cloud CLI and tons of plug-ins and tools that you can use to manage apps, resources, and infrastructure. 
+The IBM Cloud Shell available at [https://shell.cloud.ibm.com](https://shell.cloud.ibm.com) is preconfigured with the full IBM Cloud CLI and tons of plug-ins and tools that you can use to manage apps, resources, and infrastructure.
 
-Another great online shell is available via the `Theia - Cloud IDE (With OpenShift)` at https://labs.cognitiveclass.ai. The Cognitive Class shell comes with a Docker Engine and Helm v3 at the time of writing.
+Another great online shell is available via the `Theia - Cloud IDE (With OpenShift)` at [https://labs.cognitiveclass.ai](https://labs.cognitiveclass.ai). The Cognitive Class shell comes with a Docker Engine and Helm v3 at the time of writing.
 
 ## Connect to RedHat OpenShift Kubernetes Service (ROKS)
 
-1. In a new browser tab, go to https://cloud.ibm.com/kubernetes/clusters?platformType=openshift.
+1. In a new browser tab, go to [https://cloud.ibm.com/kubernetes/clusters?platformType=openshift](https://cloud.ibm.com/kubernetes/clusters?platformType=openshift).
 
 1. Make sure the account holding the cluster is selected,
 
@@ -50,7 +50,7 @@ Another great online shell is available via the `Theia - Cloud IDE (With OpenShi
 
 1. Verify you connect to the right cluster.
 
-   ```shell
+   ```console
    oc get all
    oc get nodes -o wide
    ```
@@ -59,6 +59,6 @@ Another great online shell is available via the `Theia - Cloud IDE (With OpenShi
 
 1. Optionally, for convenience, set an environment variable for your cluster name.
 
-   ```shell
+   ```console
    export CLUSTER_NAME=<your_cluster_name>
    ```
