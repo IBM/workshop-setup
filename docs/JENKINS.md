@@ -49,7 +49,7 @@
 
     ![Install Jenkins Operator](images/jenkins/install-jenkins-operator.png)
 
-11. In the `Install Operator` window, in the `Update Channel` section, select `alpha` under `Update Channel`, choose `A specific namespace in the cluster` and in the `Installed Namespace` section, select the project `jenkins` from the dropdown, select `Automatic` under `Approval Strategy`,
+1. In the `Install Operator` window, in the `Update Channel` section, select `alpha` under `Update Channel`, choose `A specific namespace in the cluster` and in the `Installed Namespace` section, select the project `jenkins` from the dropdown, select `Automatic` under `Approval Strategy`,
 
     ![Jenkins Operator Config](images/jenkins/jenkins-operator-config.png)
 
@@ -63,7 +63,7 @@
     ![Operator Details](images/jenkins/jenkins-operator-details.png)
 
 1. In the `Provided APIs` section, click the `Create Instance` link in the `Jenkins` panel,
-16. In the `Create Jenkins` window, select `Form View` or `YAML View` for the new Jenkins instance, change the `metadata.name` to `my-jenkins`, accept all other specifications,
+1. In the `Create Jenkins` window, select `Form View` or `YAML View` for the new Jenkins instance, change the `metadata.name` to `my-jenkins`, accept all other specifications,
 
     ![Jenkins YAML](images/jenkins/jenkins-yaml.png)
 
