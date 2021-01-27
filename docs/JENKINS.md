@@ -25,27 +25,27 @@
     Now using project "jenkins" on server "https://c107-e.us-south.containers.cloud.ibm.com:31608".
     ```
 
-2. Or in the Openshift web console, go to `Home` > `Projects`,
-3. Click `Create Project`
+1. Or in the Openshift web console, go to `Home` > `Projects`,
+1. Click `Create Project`
 
     ![Projects](images/jenkins/projects.png)
 
-4. For `Name` enter `jenkins`, for `Display Name` enter `jenkins`, and for `Description` enter `jenkins`,
+1. For `Name` enter `jenkins`, for `Display Name` enter `jenkins`, and for `Description` enter `jenkins`,
 
     ![Create jenkins project](images/jenkins/jenkins-project.png)
 
-5. Click `Create`,
-6. Go to `Operators` > `OperatorHub`,
-7. For `Filter by keyword` enter `Jenkins`,
+1. Click `Create`,
+1. Go to `Operators` > `OperatorHub`,
+1. For `Filter by keyword` enter `Jenkins`,
 
     ![OperatorHub Jenkins](images/jenkins/operatorhub-jenkins.png)
 
-8.  Select the `Jenkins Operator` `provided by Red Hat`, labeled `community`,
-9.  Click `Continue` to `Show Community Operator`,
+1. Select the `Jenkins Operator` `provided by Red Hat`, labeled `community`,
+1. Click `Continue` to `Show Community Operator`,
 
     ![Jenkins Community Operator](images/jenkins/show-community-operator.png)
 
-10. Review the operator information, and click `Install`,
+1. Review the operator information, and click `Install`,
 
     ![Install Jenkins Operator](images/jenkins/install-jenkins-operator.png)
 
@@ -53,53 +53,53 @@
 
     ![Jenkins Operator Config](images/jenkins/jenkins-operator-config.png)
 
-12. Click `Install`,
-13. The `Installed Operators` page will load, wait until the `Jenkins Operator` has a `Status` of `Succeeded`,
+1. Click `Install`,
+1. The `Installed Operators` page will load, wait until the `Jenkins Operator` has a `Status` of `Succeeded`,
 
     ![Succeeded](images/jenkins/installed-operator-succeeded.png)
 
-14. Click the installed operator linked `Name` of `Jenkins Operator`,
+1. Click the installed operator linked `Name` of `Jenkins Operator`,
 
     ![Operator Details](images/jenkins/jenkins-operator-details.png)
 
-15. In the `Provided APIs` section, click the `Create Instance` link in the `Jenkins` panel,
+1. In the `Provided APIs` section, click the `Create Instance` link in the `Jenkins` panel,
 16. In the `Create Jenkins` window, select `Form View` or `YAML View` for the new Jenkins instance, change the `metadata.name` to `my-jenkins`, accept all other specifications,
 
     ![Jenkins YAML](images/jenkins/jenkins-yaml.png)
 
-17. Click `Create`,
+1. Click `Create`,
 
     ![Jenkins instance created](images/jenkins/jenkins-instance-created.png)
 
-18. Go to `Networking` > `Routes`, and look for a new Route `jenkins-my-jenkins`,
+1. Go to `Networking` > `Routes`, and look for a new Route `jenkins-my-jenkins`,
 
     ![Jenkins Routes](images/jenkins/jenkins-route.png)
 
-19. Click the link for `jenkins-my-jenkins` route in the `Location` column,
+1. Click the link for `jenkins-my-jenkins` route in the `Location` column,
 
     ![Jenkins Route](images/jenkins/jenkins-route.png)
 
-20. A route to your Jenkins instance opens in a new browser window or tab,
-21. If your page loads with a `Application is not available` warning, your Jenkins instance is still being deployed and you need to wait a little longer, keep trying until the Jenkins page loads,
-22. You can see the progress of the Jenkins startup, by browsing to the Pods of the Deployment of the Jenkins instance that is being created,
-23. Click `Log in with OpenShift`,
+1. A route to your Jenkins instance opens in a new browser window or tab,
+1. If your page loads with a `Application is not available` warning, your Jenkins instance is still being deployed and you need to wait a little longer, keep trying until the Jenkins page loads,
+1. You can see the progress of the Jenkins startup, by browsing to the Pods of the Deployment of the Jenkins instance that is being created,
+1. Click `Log in with OpenShift`,
 
     ![Login with OpenShift](images/jenkins/login-with-openshift.png)
 
-24. Click `Allow selected permissions`,
+1. Click `Allow selected permissions`,
 
     ![OpenShift Jenkins Allow selected permissions](images/jenkins/jenkins-login-set-permissions.png)
 
-25. Welcome to Jenkins !
+1. Welcome to Jenkins !
 
     ![Welcome](images/jenkins/welcome-to-jenkins.png)
 
-26. Configure Jenkins
+1. Configure Jenkins
     1. Go to Jenkins > Manage Jenkins > Global Tool Configuration,
-    2. Go to the `Maven` section,
-    3. Click `Maven Installations`,
-    4. If no Maven installer is configured, click `Add Maven`,
-    5. Configure the `Name` to be `maven`, check the option `Install automatically` and select version `3.6.3`,
-    6. Click Save,
+    1. Go to the `Maven` section,
+    1. Click `Maven Installations`,
+    1. If no Maven installer is configured, click `Add Maven`,
+    1. Configure the `Name` to be `maven`, check the option `Install automatically` and select version `3.6.3`,
+    1. Click Save,
 
     ![OpenShift Add Maven](images/jenkins/jenkins-add-maven.png)
