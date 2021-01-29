@@ -1,4 +1,4 @@
-# Getting an OpenShift Cluster from IBM OpenLabs
+# Access OpenShift Cluster at OpenLabs
 
 These instructions will walk you through how you can get access to a 2 node OpenShift cluster on IBM Cloud through IBM OpenLabs. This cluster will only be available for 2 hours and then will be deleted.
 

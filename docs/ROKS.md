@@ -1,4 +1,4 @@
-# RedHat OpenShift Kubernetes Service (ROKS)
+# Connect to RedHat OpenShift Kubernetes Service (ROKS)
 
 ## Login to IBM Cloud
 

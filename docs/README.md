@@ -24,6 +24,7 @@ Some of the common setup instructions are:
 7. [Jenkins](JENKINS.md)
 8. [MkDocs](MKDOCS.md)
 9. [New IBM Cloud](NEWACCOUNT.md)
-10. [Source-to-Image (S2I)](S2I.md)
+10. [Access OpenShift Cluster at OpenLabs](OPENLABS.md)
 11. [Upgrade IBM Cloud account to Pay-As-You-Go](PAYASYOUGO.md)
 12. [Connect to RedHat OpenShift Kubernetes Service (ROKS)](ROKS.md)
+13. [Source-to-Image (S2I)](S2I.md)
