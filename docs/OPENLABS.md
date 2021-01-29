@@ -2,7 +2,7 @@
 
 These instructions will walk you through how you can get access to a 2 node OpenShift cluster on IBM Cloud through IBM OpenLabs. This cluster will only be available for 2 hours and then will be deleted.
 
-1. Go to IBM OpenLabs: https://developer.ibm.com/openlabs/openshift
+1. Go to IBM OpenLabs: <https://developer.ibm.com/openlabs/openshift>
 
 1. Find the lab in the `Hands on Labs` section called `Lab 6: Bring Your Own App`
 
