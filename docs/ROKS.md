@@ -20,7 +20,7 @@ The IBM Cloud Shell available at [https://shell.cloud.ibm.com](https://shell.clo
 
 Another great online shell is available via the `Theia - Cloud IDE (With OpenShift)` at [https://labs.cognitiveclass.ai](https://labs.cognitiveclass.ai). The Cognitive Class shell comes with a Docker Engine and Helm v3 at the time of writing.
 
-## Connect to RedHat OpenShift Kubernetes Service (ROKS)
+## Login to OpenShift
 
 1. In a new browser tab, go to [https://cloud.ibm.com/kubernetes/clusters?platformType=openshift](https://cloud.ibm.com/kubernetes/clusters?platformType=openshift).
 
