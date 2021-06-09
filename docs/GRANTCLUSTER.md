@@ -17,7 +17,18 @@ To grant a cluster,
 
     ![Welcome to IBM Cloud](images/grant-cluster/welcome-to-ibm-cloud.png)
 
-1. Log in to this IBM Cloud account using the `lab key` given to you by the instructor and your IBM Id to access your IBM Cloud account,
+1. Complete the form using the `lab key` given to you by the instructor and your IBM Id to access your IBM Cloud account.
+
+1. Before you can access the new account, you will need to accept the invitation that was sent to your email. In a new tab, log in to your email that you used to sign up for IBM Cloud and look for an email from IBM Cloud [no-reply@cloud.ibm.com] and click on `Join Now`
+
+    ![Invite Email](images/grant-cluster/inviteEmail.png)
+
+1. You should then be taken to a new page that has a form with prefilled information from your IBM Cloud account. Ensure that the information is correct and then click on the `Join Account` button.
+
+    ![Join Account](images/grant-cluster/joinAccountForm.png)
+
+1. You can then go back to the success page of the grant-cluster application and follow the instructions to log into the IBM Cloud account.
+
 1. Instructions will ask to `Log in to this IBM Cloud account`
 
     ![Congratulations, You have been assigned a kubernetes cluster](images/grant-cluster/congratulations.png)
