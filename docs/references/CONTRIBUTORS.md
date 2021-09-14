@@ -1,9 +1,5 @@
 # Contributors
 
-* **Remko de Knikker**
-  * Github: [remkohdev](https://github.com/remkohdev)]
-  * Twitter: [@remkohdev](httpsL://twitter.com/@remkohdev)
-  * LinkedIn: [remkohdev](https://linkedin.com/in/remkohdev)
-  * Medium: [@remkohdev](https://medium.com/@remkohdev)
-* Steve Martinelli
-* John Zaccone
+* Remko de Knikker, [github](https://github.com/remkohdev),
+* Steve Martinelli, [github](https://github.com/stevemar),
+* John Zaccone, [github](https://github.com/jzaccone),
