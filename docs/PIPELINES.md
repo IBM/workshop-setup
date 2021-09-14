@@ -38,4 +38,4 @@ That's all. The operator has installed OpenShift Pipelines on the cluster.
 
 to confirm the installation, go to **Workloads > Pods** and check for tekton-pipelines and tekton-triggers pods with `Running` state in the `openshift-pipelines` namespace. If so, openshift-pipelines has been successfully installed on your cluster.
 
-![OpenShift Pipelines Operator 6](docs/images/operator-install-6.png)
+![OpenShift Pipelines Operator 6](images/roks/operator-install-6.png)
