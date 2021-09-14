@@ -11,7 +11,8 @@ Some of the common setup instructions are:
 3. [Free Kubernetes Cluster](FREEIKSCLUSTER.md)
 4. [Grant Cluster Permissions](GRANTCLUSTER.md)
 5. [Connect to RedHat OpenShift Kubernetes Service (ROKS)](ROKS.md)
-6. [Labs at CognitiveClass.ai](COGNITIVECLASS.md)
+6. [IBM Container Registry (ICR)](ICR.md) 
+7. [Labs at CognitiveClass.ai](COGNITIVECLASS.md)
 
 ## All Setups
 
@@ -24,7 +25,7 @@ Some of the common setup instructions are:
 7. [Jenkins](JENKINS.md)
 8. [MkDocs](MKDOCS.md)
 9. [New IBM Cloud](NEWACCOUNT.md)
-10. [Access OpenShift Cluster at OpenLabs](OPENLABS.md)
-11. [Upgrade IBM Cloud account to Pay-As-You-Go](PAYASYOUGO.md)
-12. [Connect to RedHat OpenShift Kubernetes Service (ROKS)](ROKS.md)
+10. [Upgrade IBM Cloud account to Pay-As-You-Go](PAYASYOUGO.md)
+11. [Connect to RedHat OpenShift Kubernetes Service (ROKS)](ROKS.md)
+12. [Install Red Hat OpenShift Pipelines Operator](PIPELINES.md)
 13. [Source-to-Image (S2I)](S2I.md)
