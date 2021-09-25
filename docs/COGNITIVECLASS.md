@@ -1,5 +1,7 @@
 # CognitiveClass.ai
 
+**Deprecated**
+
 ## Access CognitiveClass.ai
 
 1. If you have already registered your account, you can access the lab environment at [https://labs.cognitiveclass.ai](https://labs.cognitiveclass.ai) and login.
