@@ -22,7 +22,7 @@ Leave the default settings and click on **Install** in order to subscribe to the
 
 ![OpenShift Pipelines Operator 2](images/roks/operator-install-2.png)
 
-After clicking **Install**, you will be taken to the **Installed Operators** page. 
+After clicking **Install**, you will be taken to the **Installed Operators** page.
 
 ![OpenShift Pipelines Operator 3](images/roks/operator-install-3.png)
 

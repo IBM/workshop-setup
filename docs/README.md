@@ -9,6 +9,7 @@ Some of the common setup instructions are:
 1. [New IBM Cloud](NEWACCOUNT.md)
 1. [Upgrade IBM Cloud Account to Pay-As-You-Go](PAYASYOUGO.md)
 1. [Log into IBM Cloud Account](IBMCLOUD.md)
+1. [Labs at CognitiveClass.ai](COGNITIVECLASS.md)
 1. [Free Kubernetes Cluster](FREEIKSCLUSTER.md)
 1. [Grant Cluster Permissions](GRANTCLUSTER.md)
 1. [Connect to RedHat OpenShift Kubernetes Service (ROKS)](ROKS.md)
@@ -18,6 +19,7 @@ Some of the common setup instructions are:
 
 1. [Calico](CALICO.md)
 1. [IBM Cloud Shell](CLOUDSHELL.md)
+1. [Labs at CognitiveClass.ai](COGNITIVECLASS.md)
 1. [Free Kubernetes Cluster](FREEIKSCLUSTER.md)
 1. [Grant Cluster Permissions](GRANTCLUSTER.md)
 1. [Helm v3](HELM.md)
