@@ -50,15 +50,15 @@ Another great online shell is available via the `Theia - Cloud IDE (With OpenShi
 
 1. Verify you connect to the right cluster.
 
-   ```console
-   oc get all
-   oc get nodes -o wide
-   ```
+    ```console
+    oc get all
+    oc get nodes -o wide
+    ```
 
     ![oc get nodes](images/roks/cognitiveclass-get-nodes.png)
 
 1. Optionally, for convenience, set an environment variable for your cluster name.
 
-   ```console
-   export CLUSTER_NAME=<your_cluster_name>
-   ```
+    ```console
+    export CLUSTER_NAME=<your_cluster_name>
+    ```
