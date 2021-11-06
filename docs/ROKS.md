@@ -1,8 +1,16 @@
 # Connect to RedHat OpenShift Kubernetes Service (ROKS)
 
+There are several manners to log into your OpenShift cluster on IBM Cloud. For a complete overview see [Accessing OpenShift clusters](https://cloud.ibm.com/docs/openshift?topic=openshift-access_cluster).
+
+## Shell
+
+Most of the labs are run using CLI commands.
+
+The IBM Cloud Shell available at [https://shell.cloud.ibm.com](https://shell.cloud.ibm.com) is preconfigured with the full IBM Cloud CLI and tons of plug-ins and tools that you can use to manage apps, resources, and infrastructure.
+
 ## Login to IBM Cloud
 
-To login to IBM Cloud,
+Login to IBM Cloud via the UI,
 
 1. Go to [https://cloud.ibm.com](https://cloud.ibm.com) in your browser and login.
 
@@ -12,15 +20,60 @@ To login to IBM Cloud,
 
 >Note: you may not have access to your OpenShift cluster if you are not in the right account#.
 
-## Shell
+Login via the CLI,
 
-Most of the labs are run using CLI commands.
+1. Login,
 
-The IBM Cloud Shell available at [https://shell.cloud.ibm.com](https://shell.cloud.ibm.com) is preconfigured with the full IBM Cloud CLI and tons of plug-ins and tools that you can use to manage apps, resources, and infrastructure.
+```bash
+ibmcloud login [-sso]
+```
 
-Another great online shell is available via the `Theia - Cloud IDE (With OpenShift)` at [https://labs.cognitiveclass.ai](https://labs.cognitiveclass.ai). The Cognitive Class shell comes with a Docker Engine and Helm v3 at the time of writing.
+1. if you know the region in which your cluster is located, target the appropriate region, and target a non-default resource-group,
 
-## Login to OpenShift
+```bash
+ibmcloud regions
+ibmcloud resource groups
+export REGION=<region>
+export RESOURCE_GROUP=<resource-group>
+ibmcloud target -r $REGION -g $RESOURCE_GROUP
+```
+
+## Check your Cluster Status
+
+```bash
+export CLUSTER_NAME=<cluster_name>
+ibmcloud oc cluster get -c $CLUSTER_NAME
+```
+
+## Login to OpenShift with an API Key
+
+```bash
+export IBMCLOUD_APIKEY_NAME=<username_roks_apikey>
+ibmcloud iam api-key-create $IBMCLOUD_APIKEY_NAME
+export IBMCLOUD_APIKEY=<copy_apikey_value>
+ibmcloud login --apikey $IBMCLOUD_APIKEY
+ibmcloud target -r $REGION -g $RESOURCE_GROUP
+
+ibmcloud oc cluster config -c $CLUSTER_NAME [--endpoint private]
+ibmcloud oc cluster get -c $CLUSTER_NAME
+oc login -u apikey -p $IBMCLOUD_APIKEY [--server=<private_service_endpoint>]
+```
+
+## Login to OpenShift as Admin
+
+Make sure that you have the Administrator platform access role for the cluster.
+
+Go to Manage > Access (IAM), in `My user details` or selected user details, go to Access Policies > click Assign access,
+
+![Administrator platform access role for the cluster](images/roks/ibmcloud_iam_add_kube_platform_admin_access.png)
+
+From the CLI, you can now login to your cluster using the `--admin` flag,
+
+```bash
+ibmcloud oc cluster config -c $CLUSTER_NAME --admin
+```
+
+## Login to OpenShift with an API Token
 
 1. In a new browser tab, go to [https://cloud.ibm.com/kubernetes/clusters?platformType=openshift](https://cloud.ibm.com/kubernetes/clusters?platformType=openshift).
 
