@@ -41,7 +41,7 @@ ibmcloud target -r $REGION -g $RESOURCE_GROUP
 ## Check your Cluster Status
 
 ```bash
-export CLUSTER_NAME=<cluster_name_001>
+export CLUSTER_NAME=<cluster_name>
 ibmcloud oc cluster get -c $CLUSTER_NAME
 ```
 
@@ -50,7 +50,7 @@ ibmcloud oc cluster get -c $CLUSTER_NAME
 ```bash
 export IBMCLOUD_APIKEY_NAME=<username_roks_apikey>
 ibmcloud iam api-key-create $IBMCLOUD_APIKEY_NAME
-export IBMCLOUD_APIKEY=<DiaKmWE04i4h-l6t1GFlO5jiTA2LGGF-ytDVEXx5ZExq>
+export IBMCLOUD_APIKEY=<copy_apikey_value>
 ibmcloud login --apikey $IBMCLOUD_APIKEY
 ibmcloud target -r $REGION -g $RESOURCE_GROUP
 
